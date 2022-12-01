@@ -9,7 +9,7 @@ margin: 0;
 }
 
 .bg{
-background-image: url("/images/mainbg.jpg");
+background-image: url("/static/images/mainbg.jpg");
 height: 100%;
 background-position: center;
 background-repeat: no-repeat;
@@ -43,6 +43,13 @@ margin-top: 100px;
 }
 
 .form input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.form button{
   display: block;
   margin-left: auto;
   margin-right: auto;
