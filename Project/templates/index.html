@@ -11,19 +11,20 @@
       <div class="navbar">
 
 
-        <a href="Register.html">Register</a>
-        <a href="Login.html">Login</a>
-        <a href="Contactus.html">Contact Us</a>
+	<a href="/Register">Register</a>
+        <a href="/Login">Login</a>
+	<a href="/ContactUs">Contact Us</a>
+	<a href="/">Home</a>
 
   </div>
           <div class="logo">
-		  <img src="{{url_for('static', filename='images/logo.png')}}" alt="logo"
+		  <img src="{{url_for('static', filename='images/logo.png')}}" alt="logo">
 		  </div>									   
 	  
 <div class="form">
-  <form method="GET">
-    <input  type="search" placeholder="Search..." name="search_query">
-    <button type="submit" name="Submit"></button>
+  <form action="" method="get" name="form">
+	  <input  class="search-field" type="text" placeholder="Search..." name="search_query" id="search"/>
+    <button class= "submit-btn" type="submit" name="Submit">Search</button>
   </form>
 </div>
 
